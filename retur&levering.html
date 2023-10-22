@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+        <link href="css/font/css/fontawesome.css" rel="stylesheet">
+        <link href="css/font/css/brands.css" rel="stylesheet">
+        <link href="css/font/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>retur & levering</title>  
+    </head>
+    <body>
+        <div id="grid-container">
+            <header>
+                <nav class="flex-nav">
+                    <a href="forside.html" id="Andeføtter">Andeføtter</a>
+                        <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i id="ham" class="fa-solid fa-bars"></i>
+                        <a href="forside.html"><i class="fa-solid fa-house"></i></a>
+                        <ul class="navbar">
+                            <li><a href="forside.html">Forside</a></li>
+                            <li><a href="produkter.html">Produkter</a></li>
+                            <li><a href="#retur&levering">Retur & Levering</a></li>
+                            <p>kundeservice</p>
+                        </ul>   
+                    </nav>
+
+                <section class="flex-btn">
+                    <a href="produkter.html" class="grey-btn">retur</a>
+                    <a href="produkter.html" class="grey-btn">levering</a>
+                    <a href="produkter.html" class="grey-btn">sporingsnummer</a>
+                    <p>kontakt oss på en vår kundeservice mail vis du lurer på noe</p>
+                </section>
+            </header>
+            <main>
+            <section>
+                
+            </section>
+        <footer class="flex-brands-solid">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-solid fa-gear"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <i class="fa-solid fa-comment"></i>
+            </footer>
+        <script>
+            let x = document.querySelector(".navbar")
+            document.getElementById("ham").addEventListener("click", (e) => {
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar"
+                }
+            })
+        </script>
+    </body>
+</html>

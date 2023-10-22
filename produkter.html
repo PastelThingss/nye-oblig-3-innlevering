@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" type="text/css">
+        <link href="css/font/css/fontawesome.css" rel="stylesheet">
+        <link href="css/font/css/brands.css" rel="stylesheet">
+        <link href="css/font/css/solid.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <title>produkter</title>  
+    </head>
+    <body>
+        <div id="grid-container">
+            <header>
+               <nav class="flex-nav">
+                    <a href="forside.html" id="Andeføtter">Andeføtter</a>
+                        <input type="text" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i id="ham" class="fa-solid fa-bars"></i>
+                        <a href="forside.html"><i class="fa-solid fa-house"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+                    <ul class="navbar">
+                        <li><a href="forside.html">Forside</a></li>
+                        <li><a href="produkter.html">Produkter</a></li>
+                        <li><a href="#retur&levering">Retur & Levering</a></li>
+                        <p>Herre/Joggesko</p>
+                    </ul>   
+                </nav>
+
+                <section class="flex-btn">
+                    <a href="produkter.html" class="grey-btn">Herre</a>
+                    <a href="produkter.html" class="grey-btn">Dame</a>
+                    <a href="produkter.html" class="grey-btn">Barn</a>
+                    <p>her finner du extra brede sko for store og små</p>
+                </section>
+            </header>
+            <main>
+            <section>
+                
+            </section>
+        <i class="fa-solid fa-money-bill"></i>
+                <i class="fa-solid fa-face-smile-beam"></i>
+                <i class="fa-solid fa-shoe-prints"></i>
+                <footer class="flex-brands-solid">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-snapchat"></i>
+                    <i class="fa-solid fa-gear"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-comment"></i>
+                    </footer>
+                <script>
+                    let x = document.querySelector(".navbar")
+                    document.getElementById("ham").addEventListener("click", (e) => {
+                        if (x.className === "navbar") {
+                            x.className += " responsive";
+                        } else {
+                            x.className = "navbar"
+                        }
+                    })
+                </script>
+    </body>
+</html>
+            
