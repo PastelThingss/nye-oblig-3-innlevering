@@ -14,13 +14,19 @@
         <div id="grid-container">
             <header>
                <nav class="flex-nav">
-                    <a href="forside.html" id="Andeføtter">Andeføtter</a>
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i id="ham" class="fa-solid fa-bars"></i>
-                        <a href="forside.html"><i class="fa-solid fa-house"></i></a>
+                <section id="Andefotter">
+                    <a href="forside.html" >Andeføtter</a>
+                    
                         <a href="#"><i class="fa-solid fa-heart"></i></a>
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a> 
+                        <section id="house">
+                        <a href="forside.html"><i class="fa-solid fa-house"></i></a>
+                    </section>
+                    </section>  
+                        <section id="søkebar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="Search">
+                        </section>
                     <ul class="navbar">
                         <li><a href="forside.html">Forside</a></li>
                         <li><a href="produkter.html">Produkter</a></li>
@@ -49,17 +55,7 @@
             <i class="fa-solid fa-comment"></i>
             </footer>
         </div>
-    <script>
-        let x = document.querySelector(".navbar")
-        document.getElementById("ham").addEventListener("click", (e) => {
-            if (x.className === "navbar") {
-                x.className += " responsive";
-            } else {
-                x.className = "navbar"
-            }
-           
-        })
-    </script>
+   
      <script src="https://kit.fontawesome.com/7aededd387.js" crossorigin="anonymous"></script>
     </body>
 </html>

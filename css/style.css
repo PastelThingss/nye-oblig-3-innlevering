@@ -24,11 +24,27 @@ header {
 header nav {
     display: flex;
     justify-content: space-between;
-    position: relative;
+    align-items: baseline;
 }
 
-nav ul li{
-    
+#Andefotter {
+    flex-basis: 100%;
+    margin: 1rem auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#house{
+    float: left;
+}
+
+#søkebar{
+    flex-basis: 100%;
+    margin: 1rem auto;
+    text-align: center;
+    width: 100%;
 }
 
 main{
@@ -90,25 +106,38 @@ footer{
 .flex-nav{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
 }
 
 .flex-nav p{
     margin: 1rem auto;
     flex-basis: 100%;
+    text-align: center;
+}
+
+#navikon{
+    float: left;
+}
+
+#kunde{
+    margin: 1rem auto;
+    flex-basis: 100%; 
+    background-color: #696767;
+    color: white;
 }
 
 .flex-main{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: baseline;
 }
 
 .flex-main section, .flex-main img{
     margin: 1rem auto;
     flex-basis: 100%;
+    text-align: center;
 }
 
 .flex-main img{
@@ -125,6 +154,7 @@ footer{
 .flex-Herre-Joggesko p{
     margin: 1rem auto;
     flex-basis: 100%;
+    color: white;
 }
 
 .flex-btn{
