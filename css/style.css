@@ -28,7 +28,7 @@ header nav {
 }
 
 nav ul li{
-    display: ;
+    
 }
 
 main{
@@ -94,6 +94,39 @@ footer{
     align-items: baseline;
 }
 
+.flex-nav p{
+    margin: 1rem auto;
+    flex-basis: 100%;
+}
+
+.flex-main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.flex-main section, .flex-main img{
+    margin: 1rem auto;
+    flex-basis: 100%;
+}
+
+.flex-main img{
+    width: 100%;
+}
+
+.flex-Herre-Joggesko{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    position: absolute;
+}
+
+.flex-Herre-Joggesko p{
+    margin: 1rem auto;
+    flex-basis: 100%;
+}
+
 .flex-btn{
     display:flex;
     flex-flow: row wrap;
@@ -121,4 +154,6 @@ footer{
         top: 50px;
         padding-top: 50px;
     }
+
+    <script src="https://kit.fontawesome.com/7aededd387.js" crossorigin="anonymous"></script>
 }

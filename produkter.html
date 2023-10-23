@@ -10,47 +10,55 @@
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <title>produkter</title>  
     </head>
-    <body>
-        <div id="grid-container">
-            <header>
-               <nav class="flex-nav">
-                    <a href="forside.html" id="Andeføtter">Andeføtter</a>
-                        <input type="text" placeholder="Search">
-                        <i class="fa-solid fa-magnifying-glass"></i>
-                        <i id="ham" class="fa-solid fa-bars"></i>
-                        <a href="forside.html"><i class="fa-solid fa-house"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>   
-                    <ul class="navbar">
-                        <li><a href="forside.html">Forside</a></li>
-                        <li><a href="produkter.html">Produkter</a></li>
-                        <li><a href="#retur&levering">Retur & Levering</a></li>
-                        <p>Herre/Joggesko</p>
-                    </ul>   
-                </nav>
-
-                <section class="flex-btn">
-                    <a href="produkter.html" class="grey-btn">Herre</a>
-                    <a href="produkter.html" class="grey-btn">Dame</a>
-                    <a href="produkter.html" class="grey-btn">Barn</a>
-                    <p>her finner du extra brede sko for store og små</p>
-                </section>
-            </header>
-            <main>
-            <section>
-                
-            </section>
-        <i class="fa-solid fa-money-bill"></i>
-                <i class="fa-solid fa-face-smile-beam"></i>
-                <i class="fa-solid fa-shoe-prints"></i>
-                <footer class="flex-brands-solid">
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-snapchat"></i>
-                    <i class="fa-solid fa-gear"></i>
-                    <i class="fa-solid fa-envelope"></i>
-                    <i class="fa-solid fa-comment"></i>
-                    </footer>
+    <div id="grid-container">
+        <header>
+           <nav class="flex-nav">
+                <a href="forside.html" id="Andeføtter">Andeføtter</a>
+                    <input type="text" placeholder="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i id="ham" class="fa-solid fa-bars"></i>
+                    <a href="forside.html"><i class="fa-solid fa-house"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>  
+                    <i class="fa-solid fa-arrow-left"></i>
+                <ul class="navbar">
+                    <li><a href="forside.html">Forside</a></li>
+                    <li><a href="produkter.html">Produkter</a></li>
+                    <li><a href="#retur&levering">Retur & Levering</a></li>
+                </ul>   
+                <p>Herre</p>
+                 <p>Joggesko</p>
+            </nav>
+            <!--<section class="flex-Herre-Joggesko">-->
+          
+        </section>
+        </header>
+        <main class="flex-main">
+            <img src="img/bilde av skresser fra siden.jpg" alt="skechers sko">
+        <section>
+            <i class="fa-solid fa-envelope"></i>
+            <p>legg i handlevogn</p>
+                <p>Skecher ArchFit</p>
+                <li>merke: skechers</li>
+                <li>Farge: sort</li>
+                <li>Str: 42</li>
+                <li>Pris: 650kr</li>
+                <li>Info om produkt</li>
+        </section>
+        <section>
+            <p>mer fra samme merke</p>
+            <p>produkt omtaler</p>
+        </section>
+       </main>
+        <footer class="flex-brands-solid">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-snapchat"></i>
+        <i class="fa-solid fa-gear"></i>
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-solid fa-comment"></i>
+        </footer>
+    </div>
                 <script>
                     let x = document.querySelector(".navbar")
                     document.getElementById("ham").addEventListener("click", (e) => {
