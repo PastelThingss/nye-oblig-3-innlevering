@@ -119,7 +119,7 @@ footer{
     display: flex;
     align-items: baseline;
     justify-content: center;
-    position: absolute;
+    background-color: #696767;
 }
 
 .flex-Herre-Joggesko p{
@@ -134,9 +134,10 @@ footer{
     align-items: baseline;
 }
 
-.flex-btn a,p{
+.flex-btn a, .flex-btn-section{
     flex-basis: 60%;
     margin: 0.5rem auto;
+    background-color: #696767;
 }
 
 @media only screen and (min-width: 600px) {
@@ -155,5 +156,5 @@ footer{
         padding-top: 50px;
     }
 
-    <script src="https://kit.fontawesome.com/7aededd387.js" crossorigin="anonymous"></script>
+    
 }
